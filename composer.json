@@ -1,0 +1,20 @@
+{
+    "name": "utel/proyectofinal",
+    "description": "Proyecto Final de tienda online de artesanías de la materia de Desarrollo e Integración de Servicios Web",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.0"
+    },
+    "license": "GNU General Public License (GPL)",
+    "authors": [
+        {
+            "name": "Miguel Arturo Velasco Ramírez",
+            "email": "miko@mail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Utel\\Util\\" : "src/util"
+        }
+    }
+}
